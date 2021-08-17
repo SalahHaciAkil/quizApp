@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-container">
+                <p>Quiz App</p>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- //=====================Final ================= -->
+
+
+
+    <!-- //=====================Quiz ================= -->
+
+
+    <!-- //=====================SETTINGS ================= -->
+
+            <div class="container">
+                <div class="main">
+                    <div class="final" style="display: none;">
+                        <h2>Result</h2>
+                        <h2 class="mt">You have solved <span id="solvedQuestions"></span> out of <span id="allQuestions"></span></h2>
+
+                        <div id='wrongQuestions' class="wrong_questions mb"></div>
+                        <button id="try" class="sumbit mt">Try Again</button>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                    <div class="quiz" style="display: none;">
+                        <div>
+                            <span id="currentQN">2</span>/<span id="QN">10</span>
+                        </div>
+
+
+                        <h2 id="question">What is your name last day</h2>
+                        <div id = "forFix"></div>
+                        <label id="a1" class="answer mt">
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                            answer1                            
+                        </label>
+                        <label id="a2" class="answer mt">
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                            answer1                            
+                        </label>
+                        <label id="a3" class="answer mt">
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                            answer1                            
+                        </label>
+                        <label id="a4" class="answer mt">
+                            <input type="radio" name="radio">
+                            <span class="checkmark"></span>
+                            answer1                            
+                        </label>
+
+                        <button id="next" class="sumbit mt">Next</button>
+
+                    </div>
+
+
+
+                    <div class="setting" style="display: block ;">
+                    <p class="mb">Set up your Quiz!</p>
+                    <label for="category">Category</label>
+                    <select name="" id="category">
+                        <option value="9">General knowlege</option>
+                        <option value="27">Animals</option>
+                        <option value="15">Video games</option>
+                        <option value="23">History</option>
+                        <option value="21">Sports</option>
+                    </select>
+    
+    
+                    <div class="mt difficulty">
+                        <label for="difficulty ">Difficulty</label>
+                        <label class="difficulty-option">Easy
+                            <input type="radio" id="easy" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="difficulty-option">Medium
+                            <input type="radio" id="medium" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="difficulty-option">Hard
+                            <input type="radio" id="hard" name="radio">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+    
+                    <div class="mt">
+                        <label for="questions">Number of questions</label>
+                        <input type="text" id="questions">
+    
+                    </div>
+    
+                    <button id="start" class="sumbit mt">Start</button>
+    
+    
+    
+    
+                </div>
+            </div>
+
+            </div>
+           
+
+
+    
+
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
