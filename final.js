@@ -2,6 +2,7 @@
 
 // This comment was added by ahmad
 class Final{
+    // This is also added by ahmad
 
     // Here is the first commit
     constructor(finalDom, solvedQuestions, allQuestions, wrongAnsweredQuestions){
