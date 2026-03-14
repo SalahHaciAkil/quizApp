@@ -1,7 +1,7 @@
 
 
+// This comment was added by salah
 class Final{
-
     // Here is the first commit
     constructor(finalDom, solvedQuestions, allQuestions, wrongAnsweredQuestions){
         console.log('weong',wrongAnsweredQuestions);
