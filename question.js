@@ -14,6 +14,8 @@ class Question {
         this.correctAnswer = fix.innerHTML;
         fix.innerHTML = ""
 
+        
+
         this.choosedAnswer = '';
         this.answers = this.shuffleAnswer([this.correctAnswer, ...question.incorrect_answers]);
         this.isCorrect = false;
